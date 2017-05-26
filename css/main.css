@@ -1,0 +1,57 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+}
+
+#tarjeta{
+	width: 650px;
+	height:380px;
+	background-image: url("../img/wiz.jpg");
+	background-size: 300px 500px;
+	position:relative;
+}
+
+/*Diseño Tarjeta lateral*/
+.contenedor{
+	width: 290px;
+	border-bottom: 380px solid #292822;
+	border-left: 160px solid transparent;
+	height:0;
+	position:absolute;
+	right:0;
+}
+/*logos*/
+.logo1 img{
+	width: 200px;
+	position:absolute;
+	left:-260px;
+}
+.logo2 img{
+	width:70px;
+	position:absolute;
+	right:0;
+	top:310px;
+}
+.text1{
+	margin-top: 80px;
+	margin-left: -40px;
+	text-align: center;
+	color: whitesmoke;
+}
+.text1 h1{
+	margin:0;
+}
+.text1 h2{
+	font-size: 20px;
+	color:#FAE51D;
+}
+.datos{
+	margin-top: 30px;
+	margin-left:8px;
+}
+.datos p{
+	margin:0;
+	color:whitesmoke;
+}
